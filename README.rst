@@ -1,4 +1,4 @@
-Xdebug
+Xdebug - patched version
 ======
 
 .. image:: https://travis-ci.org/xdebug/xdebug.svg?branch=master
@@ -7,6 +7,14 @@ Xdebug
 
 These are instructions for installing Xdebug from a Git checkout. Please refer
 to https://xdebug.org/support.php for support.
+
+Patch
+-----
+
+MacOS bad performance fix after wake up from sleep.
+
+https://github.com/docker/for-mac/issues/3455
+https://bugs.xdebug.org/view.php?id=1701
 
 Introduction
 ------------
